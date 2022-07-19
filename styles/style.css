@@ -133,3 +133,20 @@ hr{
     padding-bottom: 100px;
 }
 /* footers stylers ends */
+
+/* match styles startss */
+.flags{
+    margin-left: 70px;
+}
+.images-flag{
+     display: flex;
+     justify-content: space-around;
+     
+}
+.img-1{
+    margin-right: 10px;
+}
+.img-2{
+    margin-left: 10px;
+}
+
