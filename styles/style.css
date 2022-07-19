@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari&family=Poppins:wght@500;600;700&family=Rubik+Moonrocks&display=swap');
+/* common styles */
+body{
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+}
+
+/* heades styles starts */
+header{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px 50px;
+    margin-bottom: 50px;
+}
+.header-title{
+    font-size: 5em;
+}
+.header-details{
+    width: 50%;
+}
+.header-details > a{
+    text-decoration: none;
+    background-color: rgba(221, 0, 0, 1);
+    color: white;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    padding: 16px 25px;
+    
+}
+.header-img{
+    width: 50%;
+}
+.header-img img{
+    width: 90%;
+}
+
+/* heades styles ends */
+
+/* mains sections styles starts */
+
+.side-bar{
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px 50px;
+    display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+}
+.side-bar a{
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
